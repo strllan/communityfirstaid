@@ -277,6 +277,21 @@ nav a.active {
   font-size: 0.95rem;
   color: #555;
 }
+.card-price {
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #9ca3af; /* light grey */
+  margin-right: 8px;
+}
+
+.new-price {
+  font-weight: 700;
+  color: #059669; /* green, “on sale” */
+}
 
 .badge {
   display: inline-block;
